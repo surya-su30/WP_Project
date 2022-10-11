@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,600&family=Varela+Round&display=swap');
+
+.wrapper {
+    max-width: 1140px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: auto;
+    margin-right: auto
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box
+}
+
+a {
+    text-decoration: none;
+    color: #222
+}
+
+a:hover {    
+    color: rgb(255, 254, 254);
+    text-shadow: 5px 5px 10px black ;  
+
+}
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+body {
+    font-family: 'Varela Round', sans-serif;
+}
+
+.sr-only {
+    position: absolute;
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0;
+    border: 0;
+    height: 1px;
+    width: 1px;
+    overflow: hidden
+}
+
+.button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    color: rgb(14, 0, 0);
+    background-color: #82e0fc;
+    min-width: 120px;
+    padding: .5rem 1rem;
+    border-radius: 20px;
+    text-align: center
+}
+.button:hover{
+    color: white;
+    background-color: rgb(62, 147, 147);
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.button svg {
+    display: inline-block;
+    vertical-align: middle;
+    width: 24px;
+    height: 24px;
+    fill: #fff
+}
+
+.button span {
+    display: none
+}
+
+@media(min-width:600px) {
+    .button span {
+        display: initial
+    }
+}
+
+.button--icon {
+    min-width: initial;
+    padding: .5rem
+}
+
+
+/* Our Successfull Writers */
+.success{
+    
+    padding: 15px;
+    margin: 0px 0px;
+    text-align: center;
+    background: url('../img/bg.jpeg')  no-repeat center center/cover;
+}
+
+.success-container {
+    
+    display: flex;  
+    /* border: 2px solid; */
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+.success-element {
+    border: 2px solid black;
+    border-radius: 14px;
+    width: 266px;
+    margin: 10px;
+    padding: 15px;
+}
+.success-element img{
+    
+    width: 75px;
+    height: 85px;
+    border-radius: 50px;
+}
+.top{
+    font-size: 1.5rem;
+}
+.heading{
+    font-weight: bold;
+    
+}
+.Login-section{
+    margin: 1.5rem 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(241, 241, 143);
+}
+.Login-Signup{
+    display: flex;
+    flex-direction: column;
+    margin: 1.3rem;
+    width: 400px;
+    align-items: center;
+    justify-content: center; 
+    background-color: rgb(225, 229, 180);
+    color: rgb(1, 14, 37);
+    text-shadow: 2px 4px 5px rgb(9, 9, 8);
+    opacity: 0.5;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+.Login-Signup p{
+    padding: 12px 10px;
+    font-size: 1.2rem;
+    color: rgb(5, 2, 65);
+}
+
+#login{
+    display: block;
+    margin: 0.5em;
+    padding: 5px;
+    width: 5rem;
+    text-shadow: 2px 4px 5px rgb(9, 9, 8);
+    border-radius: 8px;
+    font-size: 0.9rem;
+    background-color: grey;
+    cursor: pointer;
+    
+}
+#login:hover{
+    box-shadow: 3px 4px 2px rgb(41, 41, 36);
+    color: #fff;
+}
+#signup{
+    display: block;
+    margin: 0.5em;
+    padding: 5px;
+    width: 5rem;
+    text-shadow: 2px 4px 5px rgb(9, 9, 8);
+    border-radius: 8px;
+    font-size: 0.9rem;
+    background-color: grey;
+    cursor: pointer;
+}
+#signup:hover{
+    color: #fff;
+    box-shadow: 3px 4px 2px rgb(41, 41, 36);
+}
+
+/* Register Book */
+
+.register-book{
+    margin: 15px 0px; 
+    background-color: rgb(148, 242, 242);    
+}
+
+/* Summary Tools */
+#tool{
+    border-radius: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    background-color: rgb(182, 182, 182);
+    border: 2px solid;
+    padding: 10px;
+}
+.btn{
+    width: 100px;
+    background-color: grey;
+    border-radius: 10px;
+}
+/* Footer */
+footer {
+    background-color: #39c8f4;
+}
+
+.footer-img {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
